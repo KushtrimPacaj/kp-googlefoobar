@@ -55,10 +55,10 @@ public class Challenge2 {
         int answer1 = answer(10);
         int answer2 = answer(143);
 
-        if (answer1 != 1 && answer2 != 143) {
-            System.out.println("Bad results");
-        } else {
+        if (answer1 == 1 && answer2 == 3) {
             System.out.println("Correct");
+        } else {
+            System.out.println("Bad results");
         }
     }
 

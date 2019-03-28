@@ -74,10 +74,10 @@ public class Challenge3 {
         int answer1 = answer(19, 36);
         int answer2 = answer(0, 1);
 
-        if (answer1 != 1 && answer2 != 3) {
-            System.out.println("Bad results");
-        } else {
+        if (answer1 == 1 && answer2 == 3) {
             System.out.println("Correct");
+        } else {
+            System.out.println("Bad results");
         }
     }
 
